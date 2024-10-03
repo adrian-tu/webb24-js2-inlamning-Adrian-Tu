@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#highscoreContainer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#highscoreContainer div {
+    margin-bottom: 10px;
+}
+
+#highscoreContainer h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#highscoreContainer p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+div.feedback {
+    margin-top: 10px;
+    font-size: 18px;
+    color: green;
+}
